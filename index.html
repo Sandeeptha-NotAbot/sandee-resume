@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Inter:wght@200&display=swap" rel="stylesheet">
     <style>
         body { 
-            background-color: #121212; /* Deep Onyx */
+            background-color: #121212; 
             color: #E5E5E5; 
             font-family: 'Inter', sans-serif;
             height: 100vh;
@@ -19,12 +19,14 @@
         }
         h1 { 
             font-family: 'Cormorant Garamond', serif; 
-            color: #D4AF37; /* Muted Champagne Gold */
+            color: #D4AF37; 
         }
         .btn-luxury {
             border: 0.5px solid #D4AF37;
             color: #D4AF37;
             transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            cursor: pointer;
+            display: inline-block;
         }
         .btn-luxury:hover {
             background-color: #D4AF37;
@@ -39,9 +41,9 @@
         <h1 class="text-6xl font-light mb-16 tracking-tight">Sandeeptha Madan</h1>
 
         <div class="mb-20">
-            <a href="sp26p2.pdf" target="_blank" rel="noopener noreferrer" class="btn-luxury px-16 py-5 text-[10px] uppercase tracking-[0.4em] font-light">
+            <button onclick="window.open('resume.pdf', '_blank');" class="btn-luxury px-16 py-5 text-[10px] uppercase tracking-[0.4em] font-light">
                 View Resume
-            </a>
+            </button>
         </div>
 
         <footer class="flex justify-center gap-12 text-[10px] uppercase tracking-[0.5em] text-gray-500">
