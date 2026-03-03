@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; background-color: #F9F8F6; color: #1A1A1A; }
+        h1, h2 { font-family: 'Cormorant Garamond', serif; }
+        .lux-border { border-bottom: 0.5px solid #E2E2E2; }
+    </style>
+</head>
+<body class="max-w-4xl mx-auto px-6 py-20">
+
+    <header class="mb-24 text-center">
+        <h1 class="text-5xl font-semibold mb-4 tracking-tight">Sandeeptha Madan</h1>
+        <p class="text-lg font-light tracking-widest uppercase text-gray-500 mb-8">Computer Engineer</p>
+        <div class="flex justify-center gap-6 text-sm font-light uppercase tracking-widest">
+            <a href="https://github.com/Sandeeptha-NotAbot" class="hover:text-gray-400 transition">GitHub </a>
+            <a href="mailto:sandee13@iastate.edu" class="hover:text-gray-400 transition">Email </a>
+            <a href="https://www.linkedin.com/in/sandeeptha-madan/" class="hover:text-gray-400 transition">LinkedIn </a>
+        </div>
+    </header>
+
+    <section class="mb-20">
+        <h2 class="text-3xl mb-10 lux-border pb-2">Technical Projects</h2>
+        
+        <div class="grid gap-12">
+            <div>
+                <h3 class="text-xl font-medium mb-2">Embedded UAV Interface (axi_ppm5)</h3>
+                <p class="font-light text-gray-600 mb-4 leading-relaxed">
+                    Developing an embedded system for UAV interfacing on a ZedBoard Zynq SoC. 
+                    Implemented Capture/Generate FSMs and AXI4-Lite bus interfaces to manage real-time 
+                    frame consistency and signal metastability.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="text-xl font-medium mb-2">FPGA NES Emulator</h3>
+                <p class="font-light text-gray-600 mb-4 leading-relaxed">
+                    Prototyping an NES emulation system on a Xilinx ZedBoard. 
+                    Architecting a VGA video pipeline and memory-mapped I/O drivers 
+                    interfacing with hardware peripherals in C and VHDL.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-32 text-center">
+        <a href="resume.pdf" class="px-8 py-3 border border-gray-300 text-sm tracking-widest uppercase hover:bg-black hover:text-white transition duration-500">
+            Download Executive CV
+        </a>
+    </footer>
+
+</body>
+</html>
